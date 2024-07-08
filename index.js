@@ -8,4 +8,11 @@ function signup(event) {
         password: form.elements.password.value
     }
 console.log(user);
+let model = document.getElementById("second_container");
+model.style.display="flex"
+model.classList.add("animate__animated","animate__fadeIn")
+}
+function closebtn(){
+let secondContainer = document.getElementById("second_container");
+secondContainer.style.display="none";
 }
